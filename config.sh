@@ -206,7 +206,7 @@ CONFIG_PACKAGE_luci-theme-opentomcat=y
 # CONFIG_PACKAGE_luci-app-uugamebooster is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-xlnetacc is not set
-# CONFIG_PACKAGE_luci-app-zerotier is not set
+CONFIG_PACKAGE_luci-app-zerotier=yes
 # CONFIG_PACKAGE_miniupnpd is not set
 # CONFIG_PACKAGE_strongswan is not set
 # CONFIG_PACKAGE_uugamebooster is not set
