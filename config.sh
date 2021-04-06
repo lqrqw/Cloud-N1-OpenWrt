@@ -165,7 +165,6 @@ CONFIG_PACKAGE_libdb47=y
 CONFIG_PACKAGE_libruby=y
 CONFIG_PACKAGE_libxml2=y
 CONFIG_PACKAGE_libyaml=y
-CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
@@ -212,7 +211,7 @@ CONFIG_PACKAGE_luci-theme-opentomcat=y
 # CONFIG_PACKAGE_strongswan is not set
 # CONFIG_PACKAGE_uugamebooster is not set
 # CONFIG_PACKAGE_vsftpd-alt is not set
-# CONFIG_PACKAGE_zerotier is not set
+CONFIG_PACKAGE_zerotier=yes
 # CONFIG_PACKAGE_ca-bundle is not set
 # CONFIG_PACKAGE_coreutils is not set
 # CONFIG_PACKAGE_dns2socks is not set
@@ -255,7 +254,6 @@ CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 CONFIG_PACKAGE_cgroupfs-mount=y
 CONFIG_PACKAGE_containerd=y
-CONFIG_PACKAGE_docker-ce=y
 CONFIG_PACKAGE_kmod-br-netfilter=y
 CONFIG_PACKAGE_kmod-dax=y
 CONFIG_PACKAGE_kmod-dm=y
@@ -271,8 +269,6 @@ CONFIG_PACKAGE_kmod-veth=y
 CONFIG_PACKAGE_libdevmapper=y
 CONFIG_PACKAGE_libmount=y
 CONFIG_PACKAGE_libnetwork=y
-CONFIG_PACKAGE_luci-app-docker=y
-CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
 CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_runc=y
 CONFIG_PACKAGE_tini=y
