@@ -224,10 +224,10 @@ CONFIG_PACKAGE_luci-theme-opentomcat=y
 # CONFIG_PACKAGE_libev is not set
 # CONFIG_PACKAGE_libmbedtls is not set
 # CONFIG_PACKAGE_libsodium is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray is not set
+CONFIG_PACKAGE_luci-app-ssr-plus=yes
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsock=yes
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=yes
+ONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=yes
 # CONFIG_PACKAGE_microsocks is not set
 # CONFIG_PACKAGE_resolveip is not set
 # CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
