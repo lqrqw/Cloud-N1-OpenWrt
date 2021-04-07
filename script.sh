@@ -19,6 +19,7 @@ sed -i "s/bootstrap/$default_theme/g" feeds/luci/modules/luci-base/root/etc/conf
 git clone https://github.com/jerrykuku/lua-maxminddb.git package-temp/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package-temp/luci-app-vssr
 git clone https://github.com/kenzok8/small.git package-temp/small
+git clone https://github.com/kenzok8/openwrt-packages.git package-temp/openwrt-packages
 cp -r package-temp/small/* package/lean/
 mv -f package-temp/lua-maxminddb package/lean/
 mv -f package-temp/luci-app-vssr package/lean/
