@@ -27,9 +27,8 @@ CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 CONFIG_PACKAGE_zerotier=y
 CONFIG_PACKAGE_v2ray=yes
 # CONFIG_PACKAGE_luci-app-unblockmusic is not set
-CONFIG_PACKAGE_luci-app-adbyby-plus=y
+# CONFIG_PACKAGE_luci-app-adbyby-plus is not set
 CONFIG_PACKAGE_luci-app-frpc=y
-CONFIG_PACKAGE_luci-i18n-fr
 CONFIG_PACKAGE_frpc=ypc-zh-cn=y
 
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
@@ -41,7 +40,7 @@ CONFIG_PACKAGE_UnblockNeteaseMusic-Go=y
 CONFIG_PACKAGE_luci-app-argon-config=y
 #CONFIG_PACKAGE_luci-app-diskman is not set
 #CONFIG_PACKAGE_luci-app-dockerman is not set
-CONFIG_PACKAGE_luci-app-jd-dailybonus=y
+#CONFIG_PACKAGE_luci-app-jd-dailybonus is not set
 CONFIG_PACKAGE_luci-theme-argon-dark-mod=y
 CONFIG_PACKAGE_luci-theme-argonv3=y
 CONFIG_PACKAGE_luci-app-openclash=y
